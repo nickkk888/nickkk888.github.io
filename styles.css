@@ -20,6 +20,12 @@ header {
     align-items: center;
 }
 
+/* Adjust the logo size */
+#logo {
+    width: 200px;
+    height: 200px;
+}
+
 /* Style the navigation menu */
 nav ul li {
     display: inline;
@@ -29,14 +35,23 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-size: 18px; /* Increase font size for a bolder look */
 }
 
 /* Style the main content sections */
 main section {
     padding: 20px;
     margin: 10px 0;
-    background-color: white; /* Added to make the text more readable against the new background color */
-    border-radius: 5px; /* Optional: for rounded corners */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for a modern touch */
+    border-radius: 15px; /* Increased for a softer look */
+}
+
+/* Style the banner image */
+#banner img {
+    width: 100%; /* Make image responsive */
+    max-width: 100%; /* Ensure it doesn’t exceed the screen width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px; /* Optional: for rounded corners */
 }
 
 /* Style the donation form */
@@ -44,6 +59,7 @@ main section {
 #donationForm button {
     padding: 10px;
     margin: 5px 0;
+    font-size: 16px; /* Increase font size for a bolder look */
 }
 
 /* Style the footer */
@@ -55,13 +71,6 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-}
-/* ... (other styles remain the same) */
-
-/* Style the banner image to be responsive */
-#banner img {
-    max-width: 100%;
-    height: auto;
+    border-top: 5px solid #C4DBAD; /* Add a touch of the main background color */
 }
 
-/* ... (other styles remain the same) */
