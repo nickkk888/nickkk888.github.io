@@ -56,3 +56,12 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/* ... (other styles remain the same) */
+
+/* Style the banner image to be responsive */
+#banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ... (other styles remain the same) */
