@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Porsche Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="logo.png" alt="One Porsche Project Logo" id="logo">
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#donate">Donate</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="banner">
+            <img src="porsche.jpg" alt="Porsche">
+            <h1>Join the One Porsche Project!</h1>
+            <p>Contribute and be a part of the exclusive community bringing this dream to life!</p>
+        </section>
+
+        <section id="about">
+            <h2>What is the One Porsche Project?</h2>
+            <p>We are a community of enthusiasts, dreamers, and believers coming together to collectively own a piece of luxury - a stunning Porsche! Every donor becomes a part of this exclusive journey, influencing decisions and leaving their mark on the car!</p>
+        </section>
+
+        <section id="donate">
+            <h2>Make Your Mark on the Porsche!</h2>
+            <form id="donationForm">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="number" placeholder="Donation Amount" required>
+                <input type="text" placeholder="Message to Inscribe" required>
+                <button type="submit">Donate Now</button>
+            </form>
+            <div id="liveCounter">Total Donations: $<span id="totalDonations">0</span></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 One Porsche Project</p>
+    </footer>
+
+    <script src="index-script.js"></script>
+</body>
+
+</html>
