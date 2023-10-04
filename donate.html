@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate - One Porsche Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="ideogram_logo.png" alt="One Porsche Project Logo" id="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="donate-page">
+        <h1>Make Your Mark on the Porsche!</h1>
+        <p>Every donation brings us closer to our dream Porsche, and your personalized message will be inscribed on the car!</p>
+
+        <form id="donationForm">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="number" placeholder="Donation Amount" required>
+            <input type="text" placeholder="Message to Inscribe" required>
+            <button type="submit">Donate Now</button>
+        </form>
+
+        <div id="liveCounter">Total Donations: $<span id="totalDonations">0</span></div>
+
+        <div id="carVisual">
+            <img src="porsche-outline.png" alt="Porsche Outline" id="carOutline">
+            <div id="fillEffect"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 One Porsche Project</p>
+    </footer>
+
+    <script src="donate-script.js"></script>
+</body>
+
+</html>

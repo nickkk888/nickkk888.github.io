@@ -74,3 +74,47 @@ footer {
     border-top: 5px solid #C4DBAD; /* Add a touch of the main background color */
 }
 
+/* Style the donate page */
+#donate-page {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Style the donation form on the donate page */
+#donationForm input,
+#donationForm button {
+    padding: 15px;
+    margin: 10px;
+    font-size: 18px;
+}
+
+/* Style the live donation counter */
+#liveCounter {
+    font-size: 24px;
+    color: #333;
+    margin: 20px;
+}
+
+/* Style the car visual representation */
+#carVisual {
+    position: relative;
+    max-width: 100%;
+}
+
+#carOutline {
+    width: 100%;
+    height: auto;
+}
+
+#fillEffect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0; /* Initially set to 0, will be updated by JavaScript */
+    height: 100%;
+    background: rgba(0, 128, 0, 0.5); /* Green fill effect with transparency */
+    z-index: 1;
+    transition: width 0.5s ease-in-out; /* Smooth transition effect */
+}
+
